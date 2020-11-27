@@ -1,29 +1,60 @@
 body {
   width: 100%;
-  height: 800px;
+  /* height: 768px; */
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
-#header {
-  border: 1px red solid;
-  flex: 1 1 auto;
+#idHeader {
+  padding: 0 15px;
+  background-color: #1c1c1c;
+  flex: 1 1 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#idsnsLogo {
+  display: flex;
+  justify-content: center;
+}
+.clsnsImg {
+  padding: 1px 16px;
 }
 
-#center {
+#idCenter {
   border: 1px black solid;
-  flex: 15 1 auto;
+  flex: 13 1 auto;
   display: flex;
 }
-#navigation {
+#idNavigation {
   border: 1px blue solid;
-  flex: 2.5 1 auto;
+  width: 200px;
 }
-#container {
+#idMainSection {
   border: 1px green solid;
-  flex: 7.5 1 auto;
+  flex: 8 1 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-#footer {
-  border: 1px orange solid;
-  flex: 1 1 auto;
+#idMainContainer {
+  flex: 8 1 0;
+}
+
+#idFooter {
+  background-color: #444444;
+  flex: 1 1 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#idFooterContent {
+  padding: 5px;
+  color: #dadada;
+}
+#idCopyright {
+  padding: 5px;
+  font-size: 13px;
+  color: #7e7f82;
 }
