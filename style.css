@@ -27,11 +27,29 @@ body {
   display: flex;
 }
 #idNavigation {
-  border: 1px blue solid;
+  margin: 0;
+  padding: 0;
   width: 200px;
+  height: 700px;
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+}
+#idBigLogo {
+  border: 1px #5c5c5c solid;
+  height: 250px;
+}
+.clNav {
+  border: 1px #5c5c5c solid;
+  padding: 10px 0 0 15px;
+  background-color: #1c1c1c;
+  color: white;
+  list-style: none;
+  height: 32px;
+  font-size: 20px;
+  font-weight: bold;
 }
 #idMainSection {
-  border: 1px green solid;
   flex: 8 1 auto;
   display: flex;
   flex-direction: column;
