@@ -25,7 +25,59 @@
       </ul>
       <div id='idMainSection'>
         <div id='idMainContainer'>
-          container
+          <!-- timetable_start -->
+          <div class="clContent-wrap">
+            <div class="clContent-left">
+              <table id="calendar" align="center">
+                <thead>
+                  <tr class="btn-wrap clearfix">
+                    <td>
+                      <label id="prev">
+                        &#60;
+                      </label>
+                    </td>
+                    <td align="center" id="idCurrent-year-month" colspan="5"></td>
+                    <td>
+                      <label id="next">
+                        &#62;
+                      </label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="clSun" align="center">Sun</td>
+                    <td align="center">Mon</td>
+                    <td align="center">Tue</td>
+                    <td align="center">Wed</td>
+                    <td align="center">Thu</td>
+                    <td align="center">Fri</td>
+                    <td class="clSat" align="center">Sat</td>
+                  </tr>
+                </thead>
+                <tbody id="idCalendar-body" class="clCalendar-body"></tbody>
+              </table>
+            </div>
+            <div class="clContent-right">
+              <div class="clMain-wrap">
+                <div id="idMain-day" class="clMain-day">월요일</div>
+                <div id="idMain-date" class="clMain-date">3일</div>
+              </div>
+              <ul class="clTimetable">
+                <li class="clAtTime">9시-10시</li>
+                <li class="clAtTime">10시-11시</li>
+                <li class="clAtTime">11시-12시</li>
+                <li class="clAtTime">12시-13시</li>
+                <li class="clAtTime">13시-14시</li>
+                <li class="clAtTime">14시-15시</li>
+                <li class="clAtTime">15시-16시</li>
+                <li class="clAtTime">16시-17시</li>
+                <li class="clAtTime">17시-18시</li>
+                <li class="clAtTime">18시-19시</li>
+                <li class="clAtTime">19시-20시</li>
+                <li class="clAtTime">20시-21시</li>
+              </ul>
+            </div>
+          </div>
+          <!-- timetable_end -->
         </div>
         <footer id='idFooter'>
           <div id='idFooterContent'>
@@ -39,5 +91,6 @@
         </footer>
       </div>
     </div>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
