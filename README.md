@@ -9,4 +9,4 @@ toyproject로 만들어보고자 진행하고 있습니다. <br>
 언제든 피드백 부탁드립니다. <br>
 
 Daniel.S.Choo 블로그 <br>
-[Choo's coding World](https://sungyeop.kr/)
+[Choo's Tech Blog](https://sungyeop.kr/)
